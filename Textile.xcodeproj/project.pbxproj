@@ -3,27 +3,48 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		4D2E8579266DBED700B24972 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2E8578266DBED700B24972 /* AppDelegate.swift */; };
 		4D2E857B266DBED700B24972 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2E857A266DBED700B24972 /* SceneDelegate.swift */; };
-		4D2E857D266DBED700B24972 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2E857C266DBED700B24972 /* ViewController.swift */; };
 		4D2E8580266DBED700B24972 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D2E857E266DBED700B24972 /* Main.storyboard */; };
 		4D2E8582266DBED800B24972 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D2E8581266DBED800B24972 /* Assets.xcassets */; };
 		4D2E8585266DBED800B24972 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D2E8583266DBED800B24972 /* LaunchScreen.storyboard */; };
+		4D2E8590266DC1B600B24972 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2E858F266DC1B600B24972 /* WelcomeViewController.swift */; };
+		4D2E8592266DC1C800B24972 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2E8591266DC1C800B24972 /* RegisterViewController.swift */; };
+		4D2E8594266DC1DF00B24972 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2E8593266DC1DF00B24972 /* LoginViewController.swift */; };
+		4D2E8596266DC1F600B24972 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2E8595266DC1F600B24972 /* ChatViewController.swift */; };
+		4D2E8598266E148400B24972 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D2E8597266E148400B24972 /* GoogleService-Info.plist */; };
+		4D2E859B2671BA6A00B24972 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4D2E859A2671BA6A00B24972 /* IQKeyboardManagerSwift */; };
+		4D2E859D2671F24B00B24972 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2E859C2671F24B00B24972 /* Message.swift */; };
+		4D2E85A02671F28D00B24972 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2E859E2671F28D00B24972 /* MessageCell.swift */; };
+		4D2E85A12671F28D00B24972 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D2E859F2671F28D00B24972 /* MessageCell.xib */; };
+		4D2E85A32671F3AA00B24972 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2E85A22671F3AA00B24972 /* Constants.swift */; };
+		E19F640FA849CAF0D8C892F5 /* Pods_Textile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB707CAE18B81CA8B97BC31 /* Pods_Textile.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09DC6E234D0A14723419BF10 /* Pods-Textile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Textile.debug.xcconfig"; path = "Target Support Files/Pods-Textile/Pods-Textile.debug.xcconfig"; sourceTree = "<group>"; };
+		477ACA1C6E90D71FF0373F7C /* Pods-Textile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Textile.release.xcconfig"; path = "Target Support Files/Pods-Textile/Pods-Textile.release.xcconfig"; sourceTree = "<group>"; };
 		4D2E8575266DBED700B24972 /* Textile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Textile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D2E8578266DBED700B24972 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D2E857A266DBED700B24972 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4D2E857C266DBED700B24972 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4D2E857F266DBED700B24972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D2E8581266DBED800B24972 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D2E8584266DBED800B24972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D2E8586266DBED800B24972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D2E858F266DC1B600B24972 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		4D2E8591266DC1C800B24972 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		4D2E8593266DC1DF00B24972 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4D2E8595266DC1F600B24972 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		4D2E8597266E148400B24972 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4D2E859C2671F24B00B24972 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		4D2E859E2671F28D00B24972 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		4D2E859F2671F28D00B24972 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		4D2E85A22671F3AA00B24972 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		ADB707CAE18B81CA8B97BC31 /* Pods_Textile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Textile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +52,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E19F640FA849CAF0D8C892F5 /* Pods_Textile.framework in Frameworks */,
+				4D2E859B2671BA6A00B24972 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		025D46890CB643DB509D0314 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADB707CAE18B81CA8B97BC31 /* Pods_Textile.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4D2E856C266DBED700B24972 = {
 			isa = PBXGroup;
 			children = (
 				4D2E8577266DBED700B24972 /* Textile */,
 				4D2E8576266DBED700B24972 /* Products */,
+				A2864CDD098E191FE899C34E /* Pods */,
+				025D46890CB643DB509D0314 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +91,54 @@
 			children = (
 				4D2E8578266DBED700B24972 /* AppDelegate.swift */,
 				4D2E857A266DBED700B24972 /* SceneDelegate.swift */,
-				4D2E857C266DBED700B24972 /* ViewController.swift */,
-				4D2E857E266DBED700B24972 /* Main.storyboard */,
+				4D2E858C266DBF7D00B24972 /* Models */,
+				4D2E858D266DBF8900B24972 /* Views */,
+				4D2E858E266DBF8F00B24972 /* Controllers */,
 				4D2E8581266DBED800B24972 /* Assets.xcassets */,
 				4D2E8583266DBED800B24972 /* LaunchScreen.storyboard */,
 				4D2E8586266DBED800B24972 /* Info.plist */,
+				4D2E8597266E148400B24972 /* GoogleService-Info.plist */,
+				4D2E85A22671F3AA00B24972 /* Constants.swift */,
 			);
 			path = Textile;
+			sourceTree = "<group>";
+		};
+		4D2E858C266DBF7D00B24972 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4D2E859C2671F24B00B24972 /* Message.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4D2E858D266DBF8900B24972 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4D2E857E266DBED700B24972 /* Main.storyboard */,
+				4D2E859E2671F28D00B24972 /* MessageCell.swift */,
+				4D2E859F2671F28D00B24972 /* MessageCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4D2E858E266DBF8F00B24972 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4D2E858F266DC1B600B24972 /* WelcomeViewController.swift */,
+				4D2E8591266DC1C800B24972 /* RegisterViewController.swift */,
+				4D2E8593266DC1DF00B24972 /* LoginViewController.swift */,
+				4D2E8595266DC1F600B24972 /* ChatViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A2864CDD098E191FE899C34E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09DC6E234D0A14723419BF10 /* Pods-Textile.debug.xcconfig */,
+				477ACA1C6E90D71FF0373F7C /* Pods-Textile.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +148,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D2E8589266DBED800B24972 /* Build configuration list for PBXNativeTarget "Textile" */;
 			buildPhases = (
+				3CD0C3F0DB15476C9170486B /* [CP] Check Pods Manifest.lock */,
 				4D2E8571266DBED700B24972 /* Sources */,
 				4D2E8572266DBED700B24972 /* Frameworks */,
 				4D2E8573266DBED700B24972 /* Resources */,
+				13A07F3562FD4DA077EF98CB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Textile;
+			packageProductDependencies = (
+				4D2E859A2671BA6A00B24972 /* IQKeyboardManagerSwift */,
+			);
 			productName = Textile;
 			productReference = 4D2E8575266DBED700B24972 /* Textile.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +189,9 @@
 				Base,
 			);
 			mainGroup = 4D2E856C266DBED700B24972;
+			packageReferences = (
+				4D2E85992671BA6A00B24972 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = 4D2E8576266DBED700B24972 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -124,7 +206,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D2E85A12671F28D00B24972 /* MessageCell.xib in Resources */,
 				4D2E8585266DBED800B24972 /* LaunchScreen.storyboard in Resources */,
+				4D2E8598266E148400B24972 /* GoogleService-Info.plist in Resources */,
 				4D2E8582266DBED800B24972 /* Assets.xcassets in Resources */,
 				4D2E8580266DBED700B24972 /* Main.storyboard in Resources */,
 			);
@@ -132,14 +216,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13A07F3562FD4DA077EF98CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Textile/Pods-Textile-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Textile/Pods-Textile-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Textile/Pods-Textile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CD0C3F0DB15476C9170486B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Textile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4D2E8571266DBED700B24972 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D2E857D266DBED700B24972 /* ViewController.swift in Sources */,
+				4D2E8590266DC1B600B24972 /* WelcomeViewController.swift in Sources */,
+				4D2E85A02671F28D00B24972 /* MessageCell.swift in Sources */,
 				4D2E8579266DBED700B24972 /* AppDelegate.swift in Sources */,
 				4D2E857B266DBED700B24972 /* SceneDelegate.swift in Sources */,
+				4D2E8594266DC1DF00B24972 /* LoginViewController.swift in Sources */,
+				4D2E8596266DC1F600B24972 /* ChatViewController.swift in Sources */,
+				4D2E8592266DC1C800B24972 /* RegisterViewController.swift in Sources */,
+				4D2E859D2671F24B00B24972 /* Message.swift in Sources */,
+				4D2E85A32671F3AA00B24972 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +415,7 @@
 		};
 		4D2E858A266DBED800B24972 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09DC6E234D0A14723419BF10 /* Pods-Textile.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +435,7 @@
 		};
 		4D2E858B266DBED800B24972 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 477ACA1C6E90D71FF0373F7C /* Pods-Textile.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -341,6 +475,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4D2E85992671BA6A00B24972 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4D2E859A2671BA6A00B24972 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4D2E85992671BA6A00B24972 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4D2E856D266DBED700B24972 /* Project object */;
 }
